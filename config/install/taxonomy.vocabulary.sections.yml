@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Sections
+vid: sections
+description: ''
+weight: 0

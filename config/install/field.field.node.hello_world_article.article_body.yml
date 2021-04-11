@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.article_body
+    - node.type.hello_world_article
+  module:
+    - text
+id: node.hello_world_article.article_body
+field_name: article_body
+entity_type: node
+bundle: hello_world_article
+label: Article Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
